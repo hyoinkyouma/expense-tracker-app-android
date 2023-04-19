@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_home">
+    app:startDestination="@+id/navigation_home"
+    >
 
     <fragment
         android:id="@+id/navigation_home"
@@ -13,13 +14,13 @@
 
     <fragment
         android:id="@+id/navigation_dashboard"
-        android:name="tk.romanaugusto.expense_tracker_app.ui.dashboard.DashboardFragment"
+        android:name="tk.romanaugusto.expense_tracker_app.ui.dashboard.HistoryFragment"
         android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        tools:layout="@layout/fragment_history" />
 
     <fragment
         android:id="@+id/navigation_notifications"
         android:name="tk.romanaugusto.expense_tracker_app.ui.notifications.NotificationsFragment"
         android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        tools:layout="@layout/fragment_analytics" />
 </navigation>

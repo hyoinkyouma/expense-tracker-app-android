@@ -14,7 +14,6 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.launch
 import org.json.JSONObject
-import java.io.File
 
 class MainActivity : AppCompatActivity() {
     private val scope = CoroutineScope(Job())
