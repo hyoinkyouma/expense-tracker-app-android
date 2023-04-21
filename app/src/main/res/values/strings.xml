@@ -4,4 +4,12 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">History</string>
     <string name="title_notifications">Analytics</string>
+    <string name = "input_hint1">Input Expense</string>
+    <string name = "input_hint2">Input Income</string>
+    <string name = "button_submit_text1">Submit</string>
+    <string name = "button_submit_text2">Submit</string>
+    <string name = "money_icon_description" >Money Icon </string>
+
+
+
 </resources>
